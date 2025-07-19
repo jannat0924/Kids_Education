@@ -100,12 +100,14 @@ background: rgb(17, 17, 17);
 padding: 10px 32px;
 border: none;
 }
-
+.curriculum{
+    margin-bottom: 70px;
+}
 .curriculum-title{
 font-size: 2.2rem;
 font-weight: 700;
 text-align: center;
-margin-top: 60px;
+margin-top: 80px;
 margin-bottom: 70px;
 }
 .cards{
@@ -164,7 +166,7 @@ margin-bottom: 15px;
 .btn{
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .curriculum-btn{
     color: rgb(255, 255, 255);
@@ -175,7 +177,65 @@ background: rgb(254, 163, 1);
 padding: 10px;
 border: none;
 }
+footer{
+background-color:  rgb(1, 172, 253);
+color: white;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+padding: 70px;
+}
 
+.about-bar{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0px ;
+}
+.about{
+font-size: 1.1rem;
+font-weight: 700;
+text-align: left;
+margin-bottom: 2px;
+}
+.list{
+font-size: 0.8rem;
+font-weight: 500;
+text-align: left;
+margin-bottom: 2px;
+}
+.footer-logo{
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+.footer-bar{
+    justify-content: flex-start;
+    align-items:center;
+    gap: 10px;
+    width: 60px;
+    margin-bottom: 0px;
+   
+}
+.footer-logo img{
+    width: 20px;
+    height: 20px;
+}
+.footer-start{
+    flex-direction: column;
+    gap: 0px;
+}
+.footer-description{
+font-size: 0.7rem;
+font-weight: 400;
+text-align: left;
+margin-top: 0px;
+width: 210px;
+}
 
 @media screen and (max-width : 576px) {
     .hide{
@@ -197,6 +257,13 @@ border: none;
 text-align: center;
 
 }
+.footer-content{
+  grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 90%;
+    padding-left: 30px;
+   
 
+}
 
 }
